@@ -1,0 +1,5 @@
+Credentials cache: API:3D627FC0-4C99-4B7B-BD82-42CBAB87C105
+        Principal: jmonreal@42MADRID.COM
+
+  Issued                Expires               Principal
+Sep 20 20:27:13 2021  Sep 21 06:27:05 2021  krbtgt/42MADRID.COM@42MADRID.COM
