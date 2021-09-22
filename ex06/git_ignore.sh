@@ -1,2 +1,2 @@
 #!/bin/bash
-cat .git_ignore
+git ls-files --full-name --others --cached --exclude-standard --ignored
