@@ -11,22 +11,19 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 
- void ft_print_numbers(void)
- {
-    int num = 0;
-    char str[16];
+void ft_print_numbers(void)
+{
+    int num = '0';
 
-    while(num <= 9)
-     {
-        int LengthUsed = sprintf(str, "%d", num);
-        write(1, str, LengthUsed);
+    while (num <= '9')
+    {
+        write(1, &num, 1);
         num++;
-     }
- }
+    }
+}
 
-int main(void) 
+int main(void)
 {
     ft_print_numbers();
     return 0;

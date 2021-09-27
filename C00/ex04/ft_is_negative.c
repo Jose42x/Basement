@@ -12,15 +12,15 @@
 
 #include <unistd.h>
 
- void ft_print_numbers(int num)
+ void ft_print_numbers(int n)
  {
-    char n = 'N';
-    char p = 'P';
+    char neg = 'N';
+    char pos = 'P';
 
-    if(num < 0)
-        write(1, &n, 1);
+    if(n < 0)
+        write(1, &neg, 1);
      else
-        write(1, &p, 1);
+        write(1, &pos, 1);
  }
 
 int main(void) 
@@ -28,5 +28,5 @@ int main(void)
     ft_print_numbers(-1);
     ft_print_numbers(0);
     ft_print_numbers(1);
-    return 0;
+    return (0);
 }
